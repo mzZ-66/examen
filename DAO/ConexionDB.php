@@ -2,7 +2,7 @@
     class conexionDB {
         private $conexion;
         public function __construct() {
-            $this->conexion = new mysqli('localhost', 'root', '', 'examendb');
+            $this->conexion = new mysqli('localhost', 'root', '', 'examenmarzopbv');
             $error = $this->conexion->connect_errno;
             $errorMessage = $this->conexion->connect_error;
             if ($error != null) {
